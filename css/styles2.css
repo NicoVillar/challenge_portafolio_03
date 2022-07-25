@@ -1,0 +1,321 @@
+/* estilos menu */
+.menu{
+    align-items: center;
+    align-content: flex-end;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 153px;
+}
+
+.menu__header{
+    display: flex;
+}
+
+.menu__list{
+    display: flex;
+   
+}
+
+.menu__list__item{
+    margin: 0 0 0 30px;
+}
+
+/* estilos title */
+
+.title{
+    font-weight: 80%;
+    margin: 0 153px;
+    margin-top: 50px;
+}
+
+.title__div{
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+}
+
+.title__profile{
+    border-radius: 50%;
+    width: 368px;
+    height: 368px;
+}
+
+.title__container h2{
+    line-height: 61px;
+    width: 600px;
+    font-size: 56px;
+}
+
+.title__container h3{
+    font-size: 17px;
+    line-height: 23px;
+    width: 600px;
+}
+
+.title__container ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 500px;
+}
+
+
+/* estilos about */
+
+.about{
+    background-color: #EAF2FD;
+    padding: 62px 153px;
+    
+}
+
+/* estilos skills */
+
+.skills{
+    margin: 0 153px;
+}
+
+.skills__title{
+    text-align: center;
+    font-size: 22px;
+}
+
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.skills__box{
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    flex-direction: column;
+    height: 160px;
+    justify-content: flex-end;
+    margin: 22px 15px;
+    padding: 16px;
+    width: 150px;
+    border-radius: 12px;
+
+}
+
+.skills__box ul{
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos hobbies */
+.hobbies{
+    margin: 0 153px;
+}
+
+.hobbies__title{
+    text-align: center;
+    font-size: 22px;
+}
+
+.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hobbies__box{
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    flex-direction: column;
+    height: 160px;
+    justify-content: flex-end;
+    margin: 22px 15px;
+    padding: 16px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.hobbies__box ul{
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* estilos formacion academica */
+.academic{
+    background-color: #EAF2FD;
+    padding: 62px 153px;
+}
+
+.academic__title{
+    text-align: center;
+    font-size: 22px;
+}
+
+.academic__courses{
+    display: flex;
+    justify-content:space-around;
+}
+
+.academic__courses__box{
+    width: 290px;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+
+.academic__courses__item__img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 205px;
+}
+
+
+.academic__courses__box ul{
+    margin: 12px;
+    padding: 0px;
+}
+
+.academic__courses__box ul li{
+    margin:  32px;
+    padding: 0;
+}
+
+/* estilos experiencia */
+
+.experience{
+    padding: 64px 0;
+    
+}
+
+.experience__section__title{
+    text-align: center;
+    font-size: 22px;
+}
+
+.experience__box{
+    display: flex;
+    gap: 0.6rem;
+    padding: 32px 100px;
+}
+
+.experience__img{
+    display: flex;
+    width: 64%;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.5px;
+}
+
+.experience__info h2{
+    font-size: 25px;
+    line-height: 23px;
+    margin: 5px 0;
+}
+
+.experience__info h3{
+    font-size: 15px;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+.experiencia__botao--repo{
+    background: #F5F5F5;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:hover{
+    background: #B0C4DE;
+    color: #FFFFFF;
+}
+
+.experience__botao--demo{
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.experience__botao--demo:hover{
+    background: #CCCCCC;
+    color: black;
+}
+
+/* estilos formulario */
+.formcontato {
+    background-color: #EAF2FD;
+    padding: 62px 153px;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.formcontato__input{
+    width: 704px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.formcontato__textarea {
+    width: 704px;
+    height: 133px;
+    border-radius: 4px;
+    border: none;
+    
+}
+
+.formcontato__input::placeholder{
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+.formcontato__textarea::placeholder{
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+.formcontato__botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 16px; 
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #FFFFFF;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.footer{
+    margin: 62px 153px;
+}
+
+.footer__rodape{
+    text-align: center;
+    font-size: 16px;
+}
